@@ -124,7 +124,7 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = 'Hai @user\n Selamat Datang Di Grup:\n*@subject*'
+  conn.welcome = 'ᴴᵅᴵ ᵏᵅᵏ @user\n ◪ ᵂᵉᶩᴄᴏᴍᴇᵢᴎᴳᴿᵁᴘ To\n@subject\n╭════•< ꧁ ꧂>•═════\n |\n |     𓌖     ᷥᷤ〈 INTRO ᷥᷤ〉    𓌖    \n |\n | ᴺᵅᵐᵅ :\n | ᵁᴹᵁᴿ:\n | ᴬᶳᵏᵒᶵ:\n | ᴷᴱᶩᴬᴹᴵᴺ:\n | ᴬᶩᴬᶳᴬᴺᴳᴬᴯᵁᴺᶝ:\n╰═════꧁ ━ ━ ꧂═════\n■□■□■□■□■□■□■□■□\n*LIST ADMIN*\n${listAdmin}\n■□■□■□■□■□■□■□■□\n@desc'
   conn.bye = 'Selamat Tinggal @user!\nTerimakasih Telah Bergabung Di Grup\n\nKalo Balik Jangan Lupa Bawa Gorengan Buat Anggota Disini'
   conn.spromote = 'Waduh @user Sekarang Admin'
   conn.sdemote = 'Alhamdulillah @user Sekarang Bukan Admin:v'
